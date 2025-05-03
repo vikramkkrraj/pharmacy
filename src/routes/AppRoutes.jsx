@@ -12,7 +12,7 @@ import Checkout from "../pages/Checkout";
 import OrderTracking from "../pages/OrderTracking";
 import PrescriptionUpload from "../pages/PrescriptionUpload";
 import Profile from "../pages/Profile";
-// import NotFound from '../pages/NotFound';
+import NotFound from '../pages/NotFound';
 import Wishlist from "../pages/Wishlist";
 import ProductDetails from "../pages/ProductDetails";
 
@@ -92,7 +92,7 @@ const AppRoutes = () => {
       />
 
       {/* Catch-All */}
-      {/* <Route path="*" element={<NotFound />} /> */}
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 };
